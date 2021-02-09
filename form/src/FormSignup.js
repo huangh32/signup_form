@@ -25,7 +25,8 @@ const FormSignup =({submitForm})=>{
                             placeholder='Your Email Address*'
                             style={{ "font-family":"Merriweather",
                             "font-style": "italic",
-                            "font-size": "16px"}}
+                            "font-size": "16px",
+                            width : "60%"}}
                             value = {values.email}
                             onChange = {handleChange}
                             />
@@ -36,6 +37,8 @@ const FormSignup =({submitForm})=>{
                         <select  name='selection' style={{ "font-family":"Merriweather",
                             "font-style": "italic",
                             "font-size": "16px",
+                            width : "60%",
+                            
                             }}
                         value = {values.selection}
                         onChange = {handleChange}>
